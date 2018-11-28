@@ -1,0 +1,36 @@
+{
+  "hero" : {
+    "title" : "What is Vriends?",
+    "description" : "Vriends is an application that allows you to keep track of your friendships. Vriends can be used to store useful information about your friends like gift idea's or even birthdays."
+  },
+  "cards" : [
+    {
+      "align" : "left",
+      "color" : "orange",
+      "image" : "card-1.png",
+      "title" : "Maintain your friendships",
+      "description" : "Each friendship is represented with a flower. Friendships, like all things, need maintenance. If you don't see or speak with your friends, the flower will lose its petals."
+    },
+    {
+      "align" : "right",
+      "color" : "blue",
+      "image" : "card-2.png",
+      "title" : "Maintain your friendships",
+      "description" : "Each friendship is represented with a flower. Friendships, like all things, need maintenance. If you don't see or speak with your friends, the flower will lose its petals."
+    },
+    {
+      "align" : "left",
+      "color" : "red",
+      "image" : "card-3.png",
+      "title" : "Maintain your friendships",
+      "description" : "Each friendship is represented with a flower. Friendships, like all things, need maintenance. If you don't see or speak with your friends, the flower will lose its petals."
+    },
+    {
+      "align" : "right",
+      "color" : "purple",
+      "image" : "card-4.png",
+      "title" : "Maintain your friendships",
+      "description" : "Each friendship is represented with a flower. Friendships, like all things, need maintenance. If you don't see or speak with your friends, the flower will lose its petals."
+    }
+  ]
+}

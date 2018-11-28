@@ -1,0 +1,84 @@
+.card {
+  padding: 4rem 2rem;
+
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
+
+  &.card-color--blue {
+    background-color: $blue;
+  }
+  &.card-color--orange {
+    background-color: $orange;
+  }
+  &.card-color--red {
+    background-color: $red;
+  }
+  &.card-color--purple {
+    background-color: $purple;
+  }
+
+  .card-inner {
+    max-width: 900px;
+    margin: 0 auto;
+
+    &.card-align--right {
+      text-align: right;
+    }
+  }
+
+  .card--image {
+    width: 100%;
+    max-width: 330px;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      transition: all 230ms ease-in-out;
+    }
+  }
+
+  .card--content {
+    max-width: 380px;
+    margin: 0 auto;
+
+    h1, p {
+      margin-top: 1rem;
+      color: $white;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    .card-inner {
+      display: flex;
+
+      &.card-align--right {
+        flex-direction: row-reverse;
+
+        .card--content {
+          margin-right: 2rem;
+          margin-left: 0;
+        }
+      }
+    }
+
+    .card--content {
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      margin-left: 2rem;
+
+      h1 {
+        font-size: 2.4rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
