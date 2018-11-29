@@ -4,7 +4,9 @@
 <template>
   <div class="hero">
     <div class="hero-button">
-      <a href="#">Download Vriends on the App Store</a>
+      <a href="#">
+        Download Vriends on the App Store
+      </a>
     </div>
 
     <div class="hero-inner">
