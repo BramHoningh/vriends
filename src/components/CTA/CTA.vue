@@ -4,7 +4,9 @@
 <template>
   <div class="cta">
     <div class="cta-button">
-      <a href="#">Download Vriends for iOS</a>
+      <a href="#">
+        Download Vriends for iOS
+      </a>
     </div>
   </div>
 </template>
