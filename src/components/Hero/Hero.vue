@@ -3,6 +3,12 @@
 
 <template>
   <div class="hero">
+    <div class="hero-button">
+      <a href="#">
+        Download Vriends on the App Store
+      </a>
+    </div>
+
     <div class="hero-inner">
       <div class="hero--image">
         <Icon
@@ -15,5 +21,7 @@
         <p>{{ $t('hero.description') }}</p>
       </div>
     </div>
+
+    <div class="indicator" />
   </div>
 </template>

@@ -11,7 +11,10 @@
       :class="`card-align--${align}`"
     >
       <div class="card--image">
-        <img :src="getImageSrc(image)" alt="">
+        <!--<img :src="getImageSrc(image)" alt="">-->
+        <Icon
+          :name="image"
+        />
       </div>
 
       <div class="card--content">

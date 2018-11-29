@@ -1,0 +1,23 @@
+.cta {
+  padding: 8rem 2rem;
+  background-color: $lightBlue;
+
+  .cta-button {
+    text-align: center;
+
+    a {
+      padding: 1.8rem 2rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: $blue;
+      background-color: $white;
+      border-radius: 8px;
+      transition: color 230ms ease-in-out, background-color 230ms ease-in-out;
+
+      &:hover {
+        color: $white;
+        background-color: $blue;
+      }
+    }
+  }
+}

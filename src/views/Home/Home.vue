@@ -3,8 +3,8 @@
 
 <template>
   <div class="home">
-    <hero />
-    <card
+    <Hero />
+    <Card
       v-for="(card, index) in $t('cards')"
       :key="index"
       :align="card.align"
@@ -13,5 +13,6 @@
       :title="card.title"
       :description="card.description"
     />
+    <CTA />
   </div>
 </template>
