@@ -7,28 +7,28 @@
     {
       "align" : "left",
       "color" : "orange",
-      "image" : "card-1.png",
+      "image" : "maintain",
       "title" : "Maintain your friendships",
       "description" : "Each friendship is represented with a flower. Friendships, like all things, need maintenance. If you don't see or speak with your friends, the flower will lose its petals."
     },
     {
       "align" : "right",
       "color" : "blue",
-      "image" : "card-2.png",
+      "image" : "give-life",
       "title" : "Give life to your friendship",
       "description" : "By holding down a flower, you are letting the app know you have seen a friend, the petals will grow back."
     },
     {
       "align" : "left",
       "color" : "red",
-      "image" : "card-3.png",
+      "image" : "wither",
       "title" : "Don't let the flower wither away",
       "description" : "The speed at which your flower deteriorates depends on how much you want to see your friend, once a week, once a month? That's up to you!"
     },
     {
       "align" : "right",
       "color" : "purple",
-      "image" : "card-4.png",
+      "image" : "data",
       "title" : "No personal data needed",
       "description" : "Vriends is an open source application which works 100% offline. We do not need any information or accounts. This means all data is stored on your device and nowhere else."
     }

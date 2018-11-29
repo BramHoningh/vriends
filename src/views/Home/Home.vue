@@ -13,5 +13,6 @@
       :title="card.title"
       :description="card.description"
     />
+    <CTA />
   </div>
 </template>
