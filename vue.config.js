@@ -1,3 +1,6 @@
+const path = require('path');
+const PrerenderSpaPlugin = require('prerender-spa-plugin');
+
 // vue.config.js
 module.exports = {
   css: {
@@ -8,8 +11,16 @@ module.exports = {
           @import "@/assets/styles/modules/_functions.scss";
           @import "@/assets/styles/modules/_mixins.scss";
         `,
-      }
-    }
+      },
+    },
+  },
+  configureWebpack: {
+    plugins: [
+      new PrerenderSpaPlugin({
+        staticDir: path.join(__dirname, 'dist'),
+        routes: ['/'],
+      }),
+    ],
   },
 
   chainWebpack: config => {
@@ -26,7 +37,7 @@ module.exports = {
       locale: 'en',
       fallbackLocale: 'en',
       localeDir: 'locales',
-      enableInSFC: false
-    }
-  }
+      enableInSFC: false,
+    },
+  },
 };
