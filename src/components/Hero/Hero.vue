@@ -5,8 +5,9 @@
   <div class="hero">
     <div class="hero-inner">
       <div class="hero--image">
-        <img src="../../assets/images/vriends-logo.png"
-             alt="Vriends Logo">
+        <Icon
+          name="logo"
+        />
       </div>
 
       <div class="hero--content">

@@ -2,7 +2,7 @@
   position: relative;
   padding: 2rem;
   min-height: 100vh;
-  text-align: center;
+  text-align: left;
   background-color: $white;
   box-sizing: border-box;
   background-image: linear-gradient( 180deg, rgb(138,206,220) 36%, rgb(233,232,203) 85%);
@@ -13,16 +13,19 @@
     .hero--image {
       width: 100%;
       max-width: 330px;
-      margin: 0 auto 5rem;
+      margin: 2rem auto 0;
 
-      img {
+      span {
         width: 100%;
       }
     }
 
     .hero--content {
       max-width: 700px;
-      margin: 0 auto;
+      margin: -4rem auto 0;
+      padding: 6rem 2rem 2rem;
+      background-color: $white;
+      border-radius: 8px;
 
       h1 {
         margin-bottom: 2rem;
@@ -33,14 +36,32 @@
 
 @media screen and (min-width: 768px) {
   .hero {
+
     .hero-inner {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
       position: absolute;
       top: 50%;
       left: 0;
       width: 100%;
+      padding: 0 2rem;
       transform: translateY(-50%);
 
+      .hero--image {
+        margin: 0 0 0 -10rem;
+        max-width: 500px;
+        z-index: 999;
+      }
+
       .hero--content {
+        align-self: center;
+        margin: 0;
+        margin-right: -5rem;
+        padding: 4rem 15rem 4rem 3rem;
+        height: 100%;
+        border-radius: 20px;
+
         h1 {
           font-size: 3rem;
         }
